@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Azul institucional estilo CUC */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    background-color: white;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #003366;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+label {
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #003366;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002244;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
